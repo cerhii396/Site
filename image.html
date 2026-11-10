@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> <lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/originals/57/61/5b/57615b8c0092a66c1d4058b1692955cc.gif);
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            background-attachment: fixed;
+        }
+        p{
+            font-size: 1in;
+            color: blueviolet;
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240919/pngtree-a-background-of-orange-blue-and-yellow-gradients-with-gritty-appearance-image_16233934.jpg);
+            background-size: cover;
+        }
+        div{
+            width: 500px;
+            height: 500px;
+            margin-bottom: 20px;
+        }
+        #d1{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9fRaF9q7BqWC9qQp9idZrlSa1LbuOg6cKILJiJLADNphW8BmPv6GYDXA&s=10");
+            background-size: cover;
+            border: 30px black groove;
+        }
+        #d2{
+            background: linear-gradient(rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url(https://wallpapershome.com/images/pages/ico_h/29933.jpg);
+            border-width: 50px;
+            border-style: solid;
+            border-image: linear-gradient(yellow,blue) 30;
+            background-size: cover;
+        }
+        #img1{
+            width: 50%;
+            border-radius: 50%;
+            box-shadow: 0px 0px 50px slategray;
+        }
+        img{
+            margin: auto;
+            display: flex;
+            margin-bottom: 40px;
+        }
+        #img2{
+            border-width: 30px;
+            border-style: solid;
+            border-image: linear-gradient(45deg,darkmagenta,pink) 30;
+            box-shadow:
+  13px 13px purple,
+  -1em 0 0.4em pink;  
+        }
+    </style>
+</head>
+<body>
+          <p>Ми вивчаємо роботу з зображеннями</p>
+          <div id="d1"></div>
+          <div id="d2"></div>
+          <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/red-and-blue-pillars-wallpaper-abstract-background-free-image.jpeg" alt="colored city" id="img1" title="colored city">    
+           <img src="images/images.jpg" alt="pink flower" title="pink flower" id="img2">
+</body>
+</html>
